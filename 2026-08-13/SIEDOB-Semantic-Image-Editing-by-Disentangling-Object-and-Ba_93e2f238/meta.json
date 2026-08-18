@@ -4,5 +4,32 @@
  "title": "SIEDOB-Semantic-Image-Editing-by-Disentangling-Object-and-Ba",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e62f02ba-59af-4605-ad6e-370f9985d2a0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e62f02ba-59af-4605-ad6e-370f9985d2a0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:04:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semantic image editing",
+    "disentangled generation",
+    "background generation",
+    "object generation",
+    "style diversity",
+    "GAN",
+    "SASPM",
+    "boundary-aware"
+   ],
+   "field": "语义图像编辑",
+   "innovations": [
+    "提出SIEDOB解耦框架，分别用异构子网络生成背景和物体",
+    "设计SASPM实现跨空间语义特征传播，确保背景纹理一致性",
+    "构建Style-Diversity Object Generator，通过类别感知风格库实现可控多模态物体生成"
+   ],
+   "benchmarks": [
+    "Cityscapes",
+    "ADE20K-Room"
+   ]
+  }
+ }
 }

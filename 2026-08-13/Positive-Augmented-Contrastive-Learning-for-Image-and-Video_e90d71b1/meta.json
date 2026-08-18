@@ -4,5 +4,36 @@
  "title": "Positive-Augmented-Contrastive-Learning-for-Image-and-Video",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d6cd3ec2-ace7-43a0-929d-6e331e56136b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d6cd3ec2-ace7-43a0-929d-6e331e56136b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:02:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像描述评估",
+    "对比学习",
+    "CLIP",
+    "视频描述评估",
+    "物体幻觉检测",
+    "正样本增强",
+    "PAC-S"
+   ],
+   "field": "多模态评估度量",
+   "innovations": [
+    "提出正样本增强对比学习框架PAC-S，融合清洗数据与生成数据训练跨模态评估空间",
+    "设计粗细粒度联合的视频描述评估策略",
+    "在多种backbone上验证度量通用性，统一图像与视频评估"
+   ],
+   "benchmarks": [
+    "Flickr8k-Expert",
+    "Flickr8k-CF",
+    "Composite",
+    "VATEX-EVAL",
+    "Pascal-50S",
+    "FOIL",
+    "ActivityNet-FOIL"
+   ]
+  }
+ }
 }

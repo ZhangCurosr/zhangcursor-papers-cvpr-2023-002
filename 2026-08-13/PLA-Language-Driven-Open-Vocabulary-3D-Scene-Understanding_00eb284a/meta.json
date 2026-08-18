@@ -4,5 +4,31 @@
  "title": "PLA-Language-Driven-Open-Vocabulary-3D-Scene-Understanding",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 05:40:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f64fd0ec-8edf-40e8-88ab-77bc771a7aff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f64fd0ec-8edf-40e8-88ab-77bc771a7aff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:01:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-vocabulary 3D",
+    "point-language association",
+    "contrastive learning",
+    "semantic segmentation",
+    "instance segmentation",
+    "vision-language model",
+    "zero-shot learning"
+   ],
+   "field": "3D开放词汇场景理解",
+   "innovations": [
+    "图像桥接层次化点-caption配对（场景/视图/实体三级）建立3D-语言显式关联",
+    "二元校准模块纠正基类预测偏差提升新类别泛化",
+    "对比点-语言训练无需3D-文本对即可蒸馏VL基础模型知识到3D域"
+   ],
+   "benchmarks": [
+    "ScanNet",
+    "S3DIS"
+   ]
+  }
+ }
 }

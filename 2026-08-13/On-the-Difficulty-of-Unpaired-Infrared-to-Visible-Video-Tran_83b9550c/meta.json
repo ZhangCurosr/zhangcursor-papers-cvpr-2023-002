@@ -4,5 +4,31 @@
  "title": "On-the-Difficulty-of-Unpaired-Infrared-to-Visible-Video-Tran",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 07:11:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/af712ba4-af91-4b21-9494-0ebd30141481.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/af712ba4-af91-4b21-9494-0ebd30141481.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:59:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "红外到可见光视频翻译",
+    "非配对图像翻译",
+    "长尾分布优化",
+    "内容感知优化",
+    "时序一致性",
+    "生成对抗网络"
+   ],
+   "field": "红外/可见光跨模态视频翻译",
+   "innovations": [
+    "提出CPTrans框架解决长尾分布导致的梯度偏见问题",
+    "设计内容感知优化模块通过PatchGAN梯度权重平衡富信息patch训练",
+    "设计内容感知时间归一化模块构建与真实运动相关的光流实现像素级时序一致性"
+   ],
+   "benchmarks": [
+    "InfraredCity-Lite",
+    "IRVI",
+    "InfraredCity-Adverse"
+   ]
+  }
+ }
 }

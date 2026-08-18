@@ -4,5 +4,33 @@
  "title": "Open-Vocabulary-Panoptic-Segmentation-with-Text-to-Image-Dif",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 05:39:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4d89eb0-5cba-4f65-8c09-4943a2205e1b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4d89eb0-5cba-4f65-8c09-4943a2205e1b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:00:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "开放词汇分割",
+    "全景分割",
+    "扩散模型",
+    "文本到图像生成",
+    "CLIP",
+    "隐式标题生成",
+    "特征融合"
+   ],
+   "field": "开放词汇视觉分割",
+   "innovations": [
+    "首次将冻结文本到图像扩散模型的内部表示用于开放词汇全景分割",
+    "提出隐式标题生成器桥接图像与扩散模型文本空间",
+    "融合扩散模型与判别模型双路特征实现开放词汇推理"
+   ],
+   "benchmarks": [
+    "ADE20K",
+    "COCO",
+    "Pascal VOC",
+    "Pascal Context"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Neural-Residual-Radiance-Fields-for-Streamably-Free-Viewpoin",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ac8ecac-c9df-47e6-a6c5-191789c95e10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ac8ecac-c9df-47e6-a6c5-191789c95e10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:59:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural Radiance Fields",
+    "动态场景渲染",
+    "自由视点视频",
+    "神经渲染压缩",
+    "流式渲染",
+    "残差建模"
+   ],
+   "field": "动态神经渲染",
+   "innovations": [
+    "提出ReRF残差辐射场表示，通过相邻帧残差建模避免全局规范空间的大运动脆弱性",
+    "设计运动网格与残差网格协同机制，实现三个数量级压缩比",
+    "构建基于GOF的编解码器与流式播放器，支持类2D视频的交互体验"
+   ],
+   "benchmarks": [
+    "PSNR",
+    "SSIM",
+    "MAE",
+    "LPIPS",
+    "存储大小(MB)",
+    "推理延迟(ms)"
+   ]
+  }
+ }
 }

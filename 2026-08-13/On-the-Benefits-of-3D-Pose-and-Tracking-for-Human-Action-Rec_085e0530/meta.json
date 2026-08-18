@@ -4,5 +4,32 @@
  "title": "On-the-Benefits-of-3D-Pose-and-Tracking-for-Human-Action-Rec",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 07:10:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7214de1-8ebc-4d91-a2dd-722c5f7ce732.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7214de1-8ebc-4d91-a2dd-722c5f7ce732.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:59:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "human action recognition",
+    "3D pose",
+    "tracking",
+    "Lagrangian view",
+    "SMPL",
+    "AVA",
+    "MViT",
+    "transformer"
+   ],
+   "field": "视频动作识别",
+   "innovations": [
+    "提出拉格朗日轨迹 Transformer（LART）统一融合 3D 姿态与外观",
+    "验证纯 3D 姿态在 AVA 上可达 24.1 mAP，较 2D 基线提升 +10.0 mAP",
+    "通过多轨迹注意力与 mask token 实现人 - 人交互与缺失鲁棒性"
+   ],
+   "benchmarks": [
+    "AVA v2.2",
+    "AVA-Kinetics"
+   ]
+  }
+ }
 }

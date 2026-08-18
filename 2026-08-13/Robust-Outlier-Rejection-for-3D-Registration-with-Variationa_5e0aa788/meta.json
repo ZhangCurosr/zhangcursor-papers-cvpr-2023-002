@@ -4,5 +4,29 @@
  "title": "Robust-Outlier-Rejection-for-3D-Registration-with-Variationa",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:10:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/852582ad-aadd-40c1-8dfb-ee0a67f42ae6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/852582ad-aadd-40c1-8dfb-ee0a67f42ae6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:04:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D点云配准",
+    "异常值剔除",
+    "变分贝叶斯",
+    "非局部网络",
+    "鲁棒估计"
+   ],
+   "field": "3D点云配准与鲁棒特征学习",
+   "innovations": [
+    "将变分贝叶斯推理引入非局部网络，通过先验/后验分布对齐学习判别性对应关系特征",
+    "设计Wilson score投票内点搜索机制，理论上证明高异常值率下优于RANSAC"
+   ],
+   "benchmarks": [
+    "3DMatch",
+    "3DLoMatch",
+    "KITTI"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "PLA-Language-Driven-Open-Vocabulary-3D-Scene-Understanding",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f64fd0ec-8edf-40e8-88ab-77bc771a7aff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f64fd0ec-8edf-40e8-88ab-77bc771a7aff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:01:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-vocabulary 3D segmentation",
+    "point-language association",
+    "vision-language foundation model",
+    "zero-shot 3D understanding",
+    "contrastive learning",
+    "domain transfer"
+   ],
+   "field": "3D开放词汇场景理解",
+   "innovations": [
+    "提出图像桥接的层次化点-文本关联范式（场景级/视图级/实体级），利用VL基础模型caption弥补3D-文本数据稀缺",
+    "设计二进制校准模块修正开放词汇推理中基类过度自信偏差",
+    "构建通用可迁移的对比点-语言训练框架，同步提升语义分割与实例分割的零样本性能"
+   ],
+   "benchmarks": [
+    "ScanNet",
+    "S3DIS"
+   ]
+  }
+ }
 }

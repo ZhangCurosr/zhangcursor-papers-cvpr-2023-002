@@ -4,5 +4,33 @@
  "title": "RIAV-MVS-Recurrent-Indexing-an-Asymmetric-Volume-for-Multi-V",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 07:10:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4d4706c1-5428-4167-bba4-69dd595ae212.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4d4706c1-5428-4167-bba4-69dd595ae212.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:03:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-View Stereo",
+    "Depth Estimation",
+    "Cost Volume",
+    "Recurrent GRU",
+    "Index Field",
+    "Asymmetric Feature",
+    "Residual Pose Correction"
+   ],
+   "field": "多视图立体视觉与深度估计",
+   "innovations": [
+    "提出基于索引场递归优化的学习优化范式，实现可微分的多视图代价体积精化与sub-pixel深度回归",
+    "构建非对称代价体积，仅在参考视图叠加Transformer全局注意力以平衡高低频特征",
+    "设计残差位姿网络校正SLAM位姿噪声，从帧级提升匹配精度"
+   ],
+   "benchmarks": [
+    "ScanNet",
+    "DTU",
+    "7-Scenes",
+    "RGB-D Scenes V2"
+   ]
+  }
+ }
 }

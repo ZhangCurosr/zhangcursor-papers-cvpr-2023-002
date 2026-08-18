@@ -4,5 +4,31 @@
  "title": "Robust-3D-Shape-Classification-via-Non-local-Graph-Attention",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11c0dc25-4acd-4cb0-ad66-004dd2f6b128.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11c0dc25-4acd-4cb0-ad66-004dd2f6b128.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:03:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D点云分类",
+    "旋转不变性",
+    "Gram矩阵",
+    "图注意力网络",
+    "稀疏点云",
+    "噪声鲁棒性",
+    "非局部网络"
+   ],
+   "field": "3D点云深度学习",
+   "innovations": [
+    "多尺度Gram矩阵端到端双分支架构实现旋转不变且噪声鲁棒",
+    "软阈值激活替代ReLU保留低频特征解决同质化",
+    "形状微分感知模块从全局特征分解提取类别差异系数"
+   ],
+   "benchmarks": [
+    "ModelNet40",
+    "ScanObjectNN PB T50 RS"
+   ]
+  }
+ }
 }

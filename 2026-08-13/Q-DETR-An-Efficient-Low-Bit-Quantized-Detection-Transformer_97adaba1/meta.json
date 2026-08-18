@@ -4,5 +4,30 @@
  "title": "Q-DETR-An-Efficient-Low-Bit-Quantized-Detection-Transformer",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e936163-e1eb-4355-811f-26efbf3c5a63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e936163-e1eb-4355-811f-26efbf3c5a63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:02:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "DETR",
+    "低比特量化",
+    "量化感知训练",
+    "信息瓶颈",
+    "知识蒸馏",
+    "目标检测"
+   ],
+   "field": "视觉检测模型压缩与高效推理",
+   "innovations": [
+    "首个 DETR 量化感知训练框架 Q-DETR，系统解决低比特 DETR 的 query 信息失真问题",
+    "基于信息瓶颈的双层分布校正蒸馏（DRD），内层分布对齐最大化自信息熵、外层前景感知匹配最小化条件信息熵",
+    "提出前景感知查询匹配（FQM）方案，有效解决 DETR query 稀疏性与不稳定性导致的蒸馏匹配难题"
+   ],
+   "benchmarks": [
+    "PASCAL VOC 2007 test",
+    "COCO val2017"
+   ]
+  }
+ }
 }

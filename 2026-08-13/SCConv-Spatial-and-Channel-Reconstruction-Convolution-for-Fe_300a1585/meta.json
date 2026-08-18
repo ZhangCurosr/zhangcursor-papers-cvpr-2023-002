@@ -4,5 +4,33 @@
  "title": "SCConv-Spatial-and-Channel-Reconstruction-Convolution-for-Fe",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/78cd2a85-cc95-439d-ac38-dbcfa8491ddf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/78cd2a85-cc95-439d-ac38-dbcfa8491ddf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:03:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CNN压缩",
+    "特征冗余",
+    "空间重构",
+    "通道重构",
+    "轻量化卷积",
+    "即插即用模块"
+   ],
+   "field": "高效卷积网络设计",
+   "innovations": [
+    "提出SRU利用GN参数分离重构空间冗余特征",
+    "提出CRU采用Split-Transform-and-Fuse策略消除通道冗余",
+    "设计SCConv即插即用模块同时减少空间与通道冗余"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet-1K",
+    "PASCAL VOC",
+    "MS COCO"
+   ]
+  }
+ }
 }

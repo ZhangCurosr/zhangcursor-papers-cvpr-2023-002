@@ -4,5 +4,33 @@
  "title": "Picture-that-Sketch-Photorealistic-Image-Generation-from-Abs",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 05:40:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3d91446-1cd4-437d-bf58-5248e3d60517.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3d91446-1cd4-437d-bf58-5248e3d60517.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:01:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sketch-to-photo",
+    "StyleGAN",
+    "image translation",
+    "GAN inversion",
+    "fine-grained retrieval",
+    "autoregressive modeling"
+   ],
+   "field": "草图图像生成",
+   "innovations": [
+    "解耦的StyleGAN编码器-解码器训练范式，冻结预训练生成器确保照片级真实性",
+    "自回归草图映射器逐层预测StyleGAN潜向量，支持可控多模态生成",
+    "细粒度判别损失+部分感知增强+教师蒸馏的复合训练策略"
+   ],
+   "benchmarks": [
+    "ShoeV2",
+    "ChairV2",
+    "Handbag",
+    "Sketchy",
+    "TU-Berlin"
+   ]
+  }
+ }
 }

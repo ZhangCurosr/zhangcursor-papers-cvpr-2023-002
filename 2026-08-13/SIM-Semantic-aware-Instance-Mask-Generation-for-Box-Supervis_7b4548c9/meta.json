@@ -4,5 +4,29 @@
  "title": "SIM-Semantic-aware-Instance-Mask-Generation-for-Box-Supervis",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/35e5ae0d-46e9-4307-a979-0cf827022f19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/35e5ae0d-46e9-4307-a979-0cf827022f19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:04:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "弱监督实例分割",
+    "边界框监督",
+    "语义原型",
+    "自修正机制",
+    "Copy-Paste增强"
+   ],
+   "field": "弱监督视觉分割",
+   "innovations": [
+    "构建多原型语义感知掩码生成机制替代低层成对监督",
+    "提出基于正样本IoU加权的自修正模块分离同类重叠实例",
+    "首次设计在线弱监督Copy-Paste增强策略"
+   ],
+   "benchmarks": [
+    "COCO test-dev",
+    "PASCAL VOC val2012"
+   ]
+  }
+ }
 }

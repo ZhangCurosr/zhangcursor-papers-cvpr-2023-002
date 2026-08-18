@@ -4,5 +4,30 @@
  "title": "PlenVDB-Memory-Efficient-VDB-Based-Radiance-Fields-for-Fast",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0017f4cb-eac7-4cc1-8415-46e6af29102b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0017f4cb-eac7-4cc1-8415-46e6af29102b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:01:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "NeRF",
+    "VDB",
+    "神经辐射场",
+    "稀疏体积",
+    "实时渲染",
+    "移动端渲染",
+    "光线 march"
+   ],
+   "field": "神经辐射场加速与渲染",
+   "innovations": [
+    "首次将VDB稀疏体积数据结构用于NeRF训练与渲染，统一训练渲染数据结构",
+    "双层光线 march 算法利用密度阈值过滤无效采样点，渲染提速约5倍",
+    "VDB合并与float16压缩使模型体积较DVGO缩小约10倍"
+   ],
+   "benchmarks": [
+    "NeRF-Synthetic"
+   ]
+  }
+ }
 }

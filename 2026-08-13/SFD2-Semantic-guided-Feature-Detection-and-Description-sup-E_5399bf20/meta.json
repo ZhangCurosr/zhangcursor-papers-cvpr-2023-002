@@ -4,5 +4,30 @@
  "title": "SFD2-Semantic-guided-Feature-Detection-and-Description-sup-E",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:10:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d7e35fca-4951-4ba1-9da8-1e8b99c0be3a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d7e35fca-4951-4ba1-9da8-1e8b99c0be3a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:04:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual localization",
+    "semantic features",
+    "keypoint detection",
+    "descriptor learning",
+    "long-term localization",
+    "feature matching"
+   ],
+   "field": "视觉定位与特征学习",
+   "innovations": [
+    "隐式语义嵌入的端到端特征检测与描述网络，无需测试时额外分割模块",
+    "类间硬边界三元组与类内软排序相结合的分离描述损失设计",
+    "局部可靠性与全局稳定性乘积形式的全局可靠性重定义"
+   ],
+   "benchmarks": [
+    "Aachen Day-Night v1.0/v1.1",
+    "RobotCar-Seasons"
+   ]
+  }
+ }
 }

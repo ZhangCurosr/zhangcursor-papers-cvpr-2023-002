@@ -4,5 +4,30 @@
  "title": "SDC-UDA-Volumetric-Unsupervised-Domain-Adaptation-Framework",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8cd7c96d-9bda-4d43-bfa2-d0fc2bedaac9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8cd7c96d-9bda-4d43-bfa2-d0fc2bedaac9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:03:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督域适应",
+    "跨模态分割",
+    "体素自训练",
+    "自注意力",
+    "伪标签细化",
+    "医学图像分析"
+   ],
+   "field": "医学图像分割与域适应",
+   "innovations": [
+    "提出2.5D内切/间切自注意力图像翻译模块实现切片方向连续的体积域适应",
+    "设计不确定性约束的敏感性/特异性自适应伪标签细化策略",
+    "解耦翻译与分割的体素级自训练框架"
+   ],
+   "benchmarks": [
+    "CrossMoDA",
+    "MMWHS 2017"
+   ]
+  }
+ }
 }

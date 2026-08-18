@@ -4,5 +4,32 @@
  "title": "Optimal-Proposal-Learning-for-Deployable-End-to-End-Pedestri",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 05:39:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f9ec334e-e63f-4bd6-a4c5-b61b5c0ce150.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f9ec334e-e63f-4bd6-a4c5-b61b5c0ce150.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:00:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "end-to-end pedestrian detection",
+    "NMS-free detection",
+    "one-stage detector",
+    "coarse-to-fine learning",
+    "completed proposal network",
+    "crowded scene detection"
+   ],
+   "field": "行人检测与密集场景理解",
+   "innovations": [
+    "C2F渐进分类边界精化策略：通过递减One-to-Mi标签分配逐步消除one-to-one分类歧义",
+    "CPN多流互补网络：融合分类与回归特征并引入MSFE局部增强与Neg(f_reg)反转，补偿小尺度/遮挡难样本",
+    "轻量可部署的去NMS端到端行人检测框架：在FCOS基础上实现工业级性价比"
+   ],
+   "benchmarks": [
+    "CrowdHuman",
+    "TJU-Ped-campus",
+    "TJU-Ped-traffic",
+    "Caltech"
+   ]
+  }
+ }
 }

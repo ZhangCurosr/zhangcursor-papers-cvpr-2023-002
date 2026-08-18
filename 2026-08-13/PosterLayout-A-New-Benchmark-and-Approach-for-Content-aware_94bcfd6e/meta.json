@@ -4,5 +4,31 @@
  "title": "PosterLayout-A-New-Benchmark-and-Approach-for-Content-aware",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 07:10:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ac8cf750-3aea-4519-87e7-12d83b4d909e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ac8cf750-3aea-4519-87e7-12d83b4d909e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:02:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "layout generation",
+    "content-aware design",
+    "GAN",
+    "CNN-LSTM",
+    "graphic design",
+    "PKU PosterLayout"
+   ],
+   "field": "视觉-文本布局生成",
+   "innovations": [
+    "首个基于CNN-LSTM的条件GAN用于布局生成，将设计过程建模为时序行为",
+    "设计序列形成(DSF)算法模仿人类设计师放置顺序，支持序列截断",
+    "构建首个含复杂布局(>10元素)且多类别多样化的公开基准PKU PosterLayout"
+   ],
+   "benchmarks": [
+    "PKU PosterLayout",
+    "CGL-GAN baseline",
+    "SmartText baseline"
+   ]
+  }
+ }
 }

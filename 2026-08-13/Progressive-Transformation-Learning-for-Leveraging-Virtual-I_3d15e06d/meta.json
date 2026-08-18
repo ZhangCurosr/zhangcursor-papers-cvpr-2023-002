@@ -4,5 +4,33 @@
  "title": "Progressive-Transformation-Learning-for-Leveraging-Virtual-I",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b960364b-5494-461d-a52a-b7a385a81a15.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b960364b-5494-461d-a52a-b7a385a81a15.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:02:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "目标检测",
+    "虚拟图像利用",
+    "域偏移",
+    "渐进式学习",
+    "低样本学习",
+    "跨域检测",
+    "无人机"
+   ],
+   "field": "无人机目标检测与合成数据利用",
+   "innovations": [
+    "提出PTL渐进式虚拟图像利用框架，通过三阶段迭代逐步扩展训练集",
+    "证明sigmoid检测器表示空间可建模为多元高斯分布并用马氏距离量化域偏移",
+    "设计加权随机采样策略平衡虚拟图像相似度与多样性"
+   ],
+   "benchmarks": [
+    "VisDrone",
+    "Okutama-Action",
+    "ICG",
+    "Archangel-Synthetic"
+   ]
+  }
+ }
 }

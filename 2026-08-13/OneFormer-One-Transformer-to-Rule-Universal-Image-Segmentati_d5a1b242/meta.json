@@ -4,5 +4,30 @@
  "title": "OneFormer-One-Transformer-to-Rule-Universal-Image-Segmentati",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:39:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1afd32a0-f36c-441f-beee-d5d497c3c4eb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1afd32a0-f36c-441f-beee-d5d497c3c4eb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:00:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "universal image segmentation",
+    "multi-task learning",
+    "query-text contrastive loss",
+    "task-conditioned training",
+    "transformer decoder"
+   ],
+   "field": "通用图像分割",
+   "innovations": [
+    "提出任务条件联合训练策略，单次训练统一三个分割任务",
+    "设计查询-文本对比损失，引导模型学习任务间与类间区分",
+    "引入任务 Token 条件化查询初始化，实现推理时动态任务切换"
+   ],
+   "benchmarks": [
+    "ADE20K",
+    "Cityscapes",
+    "COCO"
+   ]
+  }
+ }
 }

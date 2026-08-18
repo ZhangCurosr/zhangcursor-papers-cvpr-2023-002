@@ -4,5 +4,35 @@
  "title": "Revisiting-Temporal-Modeling-for-CLIP-based-Image-to-Video-K",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:11:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5e9f945d-1261-416f-9ae0-5274ce036949.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5e9f945d-1261-416f-9ae0-5274ce036949.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:03:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CLIP",
+    "视频-文本检索",
+    "视频监控识别",
+    "时序建模",
+    "知识迁移",
+    "分支结构",
+    "自注意力",
+    "3D卷积"
+   ],
+   "field": "多模态视频理解",
+   "innovations": [
+    "提出旁路分支结构STAN，在不扰动CLIP主干的前提下同时利用多层级表征进行时空建模",
+    "内帧空间模块复用CLIP自注意力层初始化，跨帧时序模块提供自注意力与3D卷积两种可替换实现",
+    "系统性揭示后置与中间结构在异构视频任务上的性能权衡，并提出兼顾高语义与低视觉模式的统一方案"
+   ],
+   "benchmarks": [
+    "MSR-VTT",
+    "DiDeMo",
+    "LSMDC",
+    "Kinetics-400",
+    "Something-Something-V2"
+   ]
+  }
+ }
 }

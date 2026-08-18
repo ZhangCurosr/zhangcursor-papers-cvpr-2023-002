@@ -4,5 +4,32 @@
  "title": "PIP-Net-Patch-Based-Intuitive-Prototypes-for-Interpretable-I",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:12:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6d1330ab-4274-46bf-8362-2deb6267ae77.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6d1330ab-4274-46bf-8362-2deb6267ae77.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:00:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interpretable deep learning",
+    "prototypical patches",
+    "self-supervised representation",
+    "out-of-distribution detection",
+    "concept-based XAI",
+    "sparse linear classification"
+   ],
+   "field": "可解释计算机视觉",
+   "innovations": [
+    "自监督 patch 对齐预训练消除原型语义鸿沟",
+    "log((p*w)^2+1) 归一化在训练期隐式稀疏并保留零值 OoD 特性",
+    "无需 part 标注即学习高纯度直觉原型并实现评分表推理"
+   ],
+   "benchmarks": [
+    "CUB-200-2011",
+    "Stanford Cars",
+    "Oxford-IIIT Pet",
+    "PartImageNet"
+   ]
+  }
+ }
 }

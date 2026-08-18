@@ -4,5 +4,10 @@
  "title": "NeuralPCI-Spatio-temporal-Neural-Field-for-3D-Point-Cloud-Mu",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:10:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/761cac03-610e-4e07-a6a3-ebd8bcfb7af7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/761cac03-610e-4e07-a6a3-ebd8bcfb7af7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:59:31",
+  "chunks": 1
+ }
 }

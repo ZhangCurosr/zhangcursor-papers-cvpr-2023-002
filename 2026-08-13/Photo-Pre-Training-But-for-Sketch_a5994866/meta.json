@@ -4,5 +4,33 @@
  "title": "Photo-Pre-Training-But-for-Sketch",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 05:40:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/80414cc8-8816-493a-b33a-0e8a116cd486.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/80414cc8-8816-493a-b33a-0e8a116cd486.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:01:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "FG-SBIR",
+    "Sketch-Based Image Retrieval",
+    "Pre-training",
+    "Meta-Learning",
+    "Cross-Modal Learning",
+    "Self-Supervised Learning"
+   ],
+   "field": "细粒度 sketches 图像检索",
+   "innovations": [
+    "将预训练照片邻域拓扑作为跨模态三元组一致性损失约束FG-SBIR微调",
+    "提出一阶近似元学习目标框架避免二阶计算开销",
+    "跨域锚点设计防止素描-照片特征空间分离"
+   ],
+   "benchmarks": [
+    "QMUL-Shoe-V1",
+    "QMUL-Shoe-V2",
+    "QMUL-Chair-V1",
+    "QMUL-Chair-V2",
+    "QMUL-Handbag"
+   ]
+  }
+ }
 }

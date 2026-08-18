@@ -4,5 +4,31 @@
  "title": "Prefix-Conditioning-Unifies-Language-and-Label-Supervision",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:10:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/568de545-926e-4bd6-b134-0fe44cd8e2e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/568de545-926e-4bd6-b134-0fe44cd8e2e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:02:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot recognition",
+    "vision-language pretraining",
+    "prefix conditioning",
+    "dataset bias",
+    "contrastive learning",
+    "domain generalization"
+   ],
+   "field": "视觉-语言预训练",
+   "innovations": [
+    "首次在前缀条件层面为VL对比预训练引入数据集源类型感知，解耦数据集偏差",
+    "证明单prefix token即可引导语言编码器切换注意力模式（聚焦类别名vs关注多名词）",
+    "Caption prefix推理在跨域鲁棒性评估中显著优于prompt prefix"
+   ],
+   "benchmarks": [
+    "ImageNet-1K zero-shot",
+    "11 datasets zero-shot average (CIFAR-10/100, Caltech-101, Oxford Pets/Flowers, Food-101, EuroSAT, Resisc45, SVHN, DTD, VOC)",
+    "ImageNet-V2/R/S domain shift"
+   ]
+  }
+ }
 }

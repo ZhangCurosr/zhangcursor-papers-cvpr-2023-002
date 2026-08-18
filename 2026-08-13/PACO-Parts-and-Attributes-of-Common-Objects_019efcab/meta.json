@@ -4,5 +4,33 @@
  "title": "PACO-Parts-and-Attributes-of-Common-Objects",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 07:10:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8bbc31a2-c9d0-47a1-9255-921cbc6fb652.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8bbc31a2-c9d0-47a1-9255-921cbc6fb652.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 20:00:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "part segmentation",
+    "attribute prediction",
+    "zero-shot instance detection",
+    "federated dataset",
+    "PACO",
+    "object-parts"
+   ],
+   "field": "细粒度物体理解",
+   "innovations": [
+    "构建大规模物体‑部件‑属性联合标注数据集 PACO，包含 75 物体类、456 部件类、55 属性类",
+    "提出适应多标签 federated 设置的 AP/AR 评测协议，妥善处理缺失属性/部件标注",
+    "定义 Level‑k 部件‑属性查询的零样本实例检测任务，揭示信息增益与错误累积的权衡"
+   ],
+   "benchmarks": [
+    "PACO-LVIS",
+    "PACO-Ego4D",
+    "PartImageNet",
+    "VAW",
+    "Fashionpedia"
+   ]
+  }
+ }
 }

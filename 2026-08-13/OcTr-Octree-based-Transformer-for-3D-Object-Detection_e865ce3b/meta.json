@@ -4,5 +4,31 @@
  "title": "OcTr-Octree-based-Transformer-for-3D-Object-Detection",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:10:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ca441c3d-8c45-43c5-87ac-a6892e104702.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ca441c3d-8c45-43c5-87ac-a6892e104702.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:59:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D object detection",
+    "Transformer",
+    "octree attention",
+    "voxel-based detection",
+    "global receptive field",
+    "Waymo Open Dataset",
+    "KITTI"
+   ],
+   "field": "3D点云目标检测",
+   "innovations": [
+    "提出OctAttn动态八叉树稀疏注意力机制，实现线性复杂度的全局感受野建模",
+    "设计SAPE+SAM混合语义位置编码增强前景感知",
+    "在Waymo和KITTI上实现SOTA，尤其远距离检测显著提升"
+   ],
+   "benchmarks": [
+    "Waymo Open Dataset",
+    "KITTI 3D Detection"
+   ]
+  }
+ }
 }
